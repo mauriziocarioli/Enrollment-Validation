@@ -9,10 +9,7 @@
   <name>Enrollment-Validation</name>
   <description></description>
   <properties>
-    <!-- RHPAM 7.5.0 -->
     <version.org.kie>7.26.0.Final-redhat-00005</version.org.kie>
-    <!-- RHPAM 7.5.1 -->
-    <!--version.org.kie>7.26.0.Final-redhat-00006</version.org.kie-->
   </properties>
   <dependencies>
     <dependency>
@@ -55,6 +52,7 @@
       <groupId>com.health-insurance</groupId>
       <artifactId>Enrollment-Model</artifactId>
       <version>1.0.0-SNAPSHOT</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
   <build>
